@@ -34,6 +34,5 @@ jobs:
       
       - name: Print Go version
         shell: bash
-        run: printf "Go version: $(go version)\n"
-      
-      
+        run: |
+          printf "Go version: $(go version)\n"
